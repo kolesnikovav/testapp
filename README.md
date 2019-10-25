@@ -1,4 +1,4 @@
-# testapp
+# vuetify-toolkit hello word
 
 ## Project setup
 ```
@@ -7,22 +7,22 @@ yarn install
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+yarn run serve
 ```
 
 ### Compiles and minifies for production
 ```
-yarn build
+yarn run build
 ```
 
-### Run your unit tests
+### Run your tests
 ```
-yarn test:unit
+yarn run test
 ```
 
 ### Lints and fixes files
 ```
-yarn lint
+yarn run lint
 ```
 
 ### Customize configuration

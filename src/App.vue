@@ -1,32 +1,44 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <v-app>
+    <v-app-bar app>
+      <v-toolbar-title class="headline text-uppercase">
+        <span>Vuetify-Toolkit</span>
+      </v-toolbar-title>
+      <v-spacer></v-spacer>
+    </v-app-bar>
+    <v-content>
+      <span class="mr-2">VTreeSelect example</span>
+      <v-tree-select :items="treeItems" chips clearable multiple></v-tree-select>
+      <span class="mr-2">VCascader example</span>
+      <v-cascader :items="cascaderItems" itemText="name" clearable></v-cascader>
+      <span class="mr-2">VDataGridSelect example</span>
+      <v-data-grid-select
+        :items="dgItems"
+        :headers="dgHeaders"
+        item-key="name"
+        item-text="name"
+        clearable
+        dense
+        chips
+        chips-dense
+        multiple
+      ></v-data-grid-select>
+    </v-content>
+  </v-app>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script>
+import { staticitems, dataGridHeaders, desserts, ofices } from './example-data'
+
+export default {
+  name: 'App',
+  data: () => ({
+    treeItems: staticitems,
+    cascaderItems: ofices,
+    name: 'name',
+    dgItems: desserts,
+    dgHeaders: dataGridHeaders
+    //
+  })
 }
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-</style>
+</script>
