@@ -8219,10 +8219,10 @@ vuetify-toolkit@^0.1.3:
   resolved "https://registry.yarnpkg.com/vuetify-toolkit/-/vuetify-toolkit-0.1.3.tgz#bc5738e767488fc5d9c18271e69ba49518053f7f"
   integrity sha512-ADM/YOW5anV4OQpIjMvKI2fzEfwNUeBFr1qEtqzm8Cc09qlTgDNhJ1pTedpO+bFSB2U7+c51hW0r9offNmrVbg==
 
-vuetify@^2.1.0:
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-2.1.6.tgz#f6c02458e2a143fa761f7d4f9831fe04cea26e09"
-  integrity sha512-uK5jNTbRQtnPRMDsBeXOSVgo0nKDNq7XDi987XVhK6Vb5dl6Y5kSFBFDHPpdzSUraeUtyDHrJWxq29NTPIbdFw==
+vuetify@^2.6.10:
+  version "2.6.10"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-2.6.10.tgz#b86cd7a97bf8cd3828a72c349795b5b3c539ebc2"
+  integrity sha512-fgUeRDDCwYkwu6WGEEKGe7IdfzOsXJCZGrqkn1pcS2ycuoDL8mR2/dejH5iFNnBY6MnsT365PAGn0J+9otjfQg==
 
 watchpack@^1.6.0:
   version "1.6.0"
